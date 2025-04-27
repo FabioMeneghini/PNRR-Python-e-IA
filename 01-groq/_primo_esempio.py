@@ -18,8 +18,8 @@ try:
     chat_completion = client.chat.completions.create(
         messages=[
             {
-                "role": "system", # messaggio di sistema: dobbiamo dire al LLM come comportarsi e che tipi di messaggi aspettarsi
-                "content": """Sei un assistente virtuale che risponde a domande in italiano."""
+                "role": "system", # messaggio di sistema: dobbiamo dire al LLM come comportarsi e che tipo di messaggi aspettarsi
+                "content": "Sei un assistente virtuale che risponde a domande in italiano."
             },
             {
                 "role": "user", # messaggio dell'utente

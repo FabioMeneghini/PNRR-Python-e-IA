@@ -1,3 +1,6 @@
+# Scrivere un programma che permette di chattare con un assistente virtuale.
+# Il programma deve utilizzare un modello LLM (Large Language Model) per generare le risposte.
+
 from llm_adapter import LLM
 
 llm = LLM("llama-3.1-8b-instant") # inizializza il modello LLM
