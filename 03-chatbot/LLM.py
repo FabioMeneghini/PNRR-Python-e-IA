@@ -22,7 +22,7 @@ class LLM:
                     {
                         "role": "system",
                         "content": f"""Sei un assistente virtuale che risponde a domande in italiano.
-                                    Di seguito di verrà fornita una domanda dall'utente e possibilmente un contesto
+                                    Di seguito ti verrà fornita una domanda dall'utente e possibilmente un contesto
                                     su cui ti dovrai basare.
                                     Rispondi in modo chiaro e conciso, senza ripetere la domanda e il contesto.
                                     Se un contesto è fornito, la risposta deve essere basata UNICAMENTE su di esso.
